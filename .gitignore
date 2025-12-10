@@ -1,0 +1,73 @@
+# ───── React Native ─────
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# React Native generated
+/android/app/build/
+/android/.gradle/
+/android/build/
+/ios/Pods/
+/ios/build/
+/ios/DerivedData/
+
+# Metro & cache
+.metro-*
+.cache/
+.expo/
+.expo-shared/
+
+# macOS / Windows / Linux
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ───── Python (опционально) TypeScript ─────
+# *.tsbuildinfo
+# dist/
+# .tsbuildinfo
+
+# ───── Python ─────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Flask
+instance/
+.webassets-cache
+
+# ───── IDE / Editors ─────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ───── Другое ─────
+*.env
+*.env.local
+*.env.*.local
+.DS_Store
